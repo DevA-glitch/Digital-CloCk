@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Inconsolata', monospace; 
+    background-color: black;
+}
+
+.clock {
+    padding: 2rem;
+    border-radius: 1px;
+    font-size: 3rem;
+    color: white;
+    box-shadow: 10px 10px grey;
+    background-color: rgb(101, 200, 240);
+    cursor: pointer;
+}   
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background-color: white;
+    }
+
+    
+    .clock {
+        border-radius: 1px;
+        padding: 1rem;
+        color: rgb(140, 251, 255);
+        font-size: 2rem;
+        background-color: black;
+        box-shadow: 10px 10px grey;
+        cursor: pointer;
+    }   
+
+}
